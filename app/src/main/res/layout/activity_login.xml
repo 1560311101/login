@@ -23,11 +23,11 @@
             android:layout_marginTop="15dp"
             />
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="返回"
-            android:textSize="17sp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text=""
             android:layout_marginTop="11dp"
+            android:background="@drawable/back"
             />
     </LinearLayout>
 
@@ -118,15 +118,16 @@
         android:layout_below="@id/Login_LinearLayout_Phone"
         android:visibility="gone"
         />
-    <TextView
+    <Button
         android:id="@+id/Login_TextView_Send"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:text="登陆"
-        android:textSize="17sp"
+        android:textSize="21sp"
         android:textColor="#000000"
         android:background="#ffffff"
         android:layout_alignParentBottom="true"
         android:gravity="center"
         />
+
 </RelativeLayout>
